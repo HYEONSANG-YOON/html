@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="wrap" style="background-color: antiquewhite;">
+        <div id="header" style="background-color: aqua; height: 300px;">
+            <span style="background-color: blue;">영역 구분</span>
+            <span style="background-color: beige;">영역 구분</span>
+            <span style="background-color: brown;">영역 구분</span>
+        </div>
+        <div id="main" style="background-color: aliceblue; height: 500px;">
+            영역 구분
+        </div>
+        <div id="footer" style="background-color: burlywood; height: 300px;">
+            영역 구분
+        </div>
+    </div>
+
+    <hr>
+
+    <form>
+        <input type="next" placeholder="아이디 입력" required><br>
+        <input type="next" value="읽기 전용" readonly><br>
+        <input type="tel" required pattern="\d{3}-\d{3,4}-\d{4}" placeholder="000-0000-0000"><br>
+
+        <input type="submit" value="전송">
+        <input type="button" value="이전" disabled>
+        <input type="button" value="다음">
+        <button type="button">버튼입니다</button>
+    </form>
+
+
+    <hr>
+
+    <fieldset style="width: 200px;">
+        <legend>취미 조사</legend>
+        <input type="text" id="id"><br>
+        
+        <label for="h1">책</label>
+        <input id="h1" type="checkbox">
+        <br>
+        
+        <label for="id">입력</label>
+    </fieldset>
+
+    <label>인라인</label>
+
+
+    <form action="ex02.html" method="post">
+        <select size="1" name="test1">
+            <option value="p1">사과</option>
+            <option value="p2">당근</option>
+            <option value="p3">코끼리</option>
+        </select>
+
+        <input type="text" placeholder="input name" name="이름"><br>
+        <input type="text" placeholder="input address" name="query"><br>
+        <textarea cols="20" rows="5" name="test"></textarea><hr>
+        <input type="reset" value="초기화">
+        <input type="submit" value="서브밋">
+        <input type="button" value="버튼">
+    </form>
+    <hr>
+
+    멍 <input type="checkbox" name="hobby">
+    겜 <input type="checkbox" name="hobby">
+    코딩 <input type="checkbox" name="hobby">
+
+    <hr>
+
+    10대<input type="radio" name="age" checked>
+    20대<input type="radio" name="age">
+    30대<input type="radio" name="age">
+    40대<input type="radio" name="age">
+
+    <hr>
+
+    <input type="color"><br>
+    <input type="range"><br>
+    <input type="radio"><br>
+    <input type="checkbox"><br>
+    <input type="hidden" value="안녕하세요"><br>
+
+    <hr>
+
+    <input type="text" value="내용 입력" size="10" maxlength="10"><br>
+    <input type="password" value="123456"><br>
+    <input type="email" placeholder="test@test.com"><br>
+    <input type="search" value="검색 x"><br>
+    <input type="tel" placeholder="000-0000-0000"><br>
+    <input type="number" value="1" min="1" max="10"><br>
+
+    <hr>
+
+    <input type="button" value="버어튼"><br>
+    <input type="submit" value="서브밋"><br>
+    <input type="reset" value="reset"><br>
+    <input type="image" src="다운로드.jpg" width="100px" height="100px" alt="" ><br>
+    <img src="" width="100px" height="100px" alt="이미지 대신 글자로 표현"><br>
+    <input type="file"><br>
+    
+</body>
+</html>
