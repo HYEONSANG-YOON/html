@@ -1,0 +1,52 @@
+#wrap { width: 500px; }
+#logo { width: 100px; height: 100px; border-radius: 100px; overflow: hidden;}
+#logo > img { width: 100px; height: 100px; transition: all 0.3s;
+    &:hover {
+        transform: scale(1.1);
+        transition: all 0.3s;
+    }
+}
+/*
+#logo > img:hover {
+    transform: scale(1.1);
+}
+*/
+.item {
+    width: 100px; height: 200px; border: 2px solid gray;
+    border-radius: 5px; overflow: hidden;
+}
+.item div:nth-last-of-type(1){
+    width: 100px; height: 100px;
+    overflow: hidden;
+}
+.item img {
+    width: 100px; height: 100px;
+    &:hover{
+        transform: scale(1.1);
+        transition: all 0.1s;
+    }
+}
+
+.item :nth-last-of-type(2){
+    height: 70px; 
+}
+.item :nth-last-of-type(2) > a {
+    color: black;
+    text-decoration: none;
+    &:hover{
+        color: red;
+    }
+}
+.item :nth-of-type(3){
+    background-color: cadetblue;
+    text-align: right; color: blue;
+}
+#logo ~ button {
+    background-color: gray;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    &:hover{
+        background-color: darkgoldenrod;
+    }
+}

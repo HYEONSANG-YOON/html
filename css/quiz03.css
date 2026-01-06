@@ -1,0 +1,31 @@
+#wrap { width: 1200px; height: 500px; border: 1px solid; margin: auto;}
+#wrap div { width: 216px; height: 216px; background-color: aqua;
+            display: inline-block; 
+            background-size: cover; 
+            margin-right: 30px; 
+            &:nth-last-of-type(1) { margin-right: 0; }          
+            
+            &:hover > span { color: red;
+                             background-color: darkkhaki;
+                             opacity: 0.8;
+                             transition: all 1s;
+                            }
+          }
+            /*
+            &:hover {
+                & > span {
+                    color: orangered;}
+            }
+            */        
+        
+            #wrap div:nth-of-type(1) { background-image: url(다운로드.jpg);}
+
+            #wrap span { opacity: 0.1;
+                         width: 100px;
+                         display: block; 
+                         margin: auto; 
+                         margin-top: 100px;
+                         font-size: 30px; 
+                         text-align: center; 
+                         border: 5px solid gray;
+                         border-radius: 10px; color: brown; }

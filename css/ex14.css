@@ -1,0 +1,47 @@
+#div1, #div2, #div3 {
+    width: 200px; height: 200px;
+    background-image: url("다운로드5.jpg");
+    background-size: cover;
+}
+#div1 {
+    margin: 200px; transform: rotate(5deg);
+}
+#div2 {
+    margin-top: 300px;
+    margin-left: 300px;
+    transform: rotate(-5deg);
+    transition: 1s;
+}
+#div2:hover { transform: rotate(1420deg);}
+
+#div3 {
+    margin: 100px;
+    &:hover{
+        transform: scale(1.5);
+    }
+}
+
+#div4, #div5 {
+    overflow: hidden;
+    width: 150px; height: 150px;
+    background-color: gray; border: 10px solid red;
+    margin-left: 200px;
+    & img { width: 150px; height: 150px;}
+}
+#div4 img:hover {
+    width: 300px; height: 300px;
+}
+#div5 img:hover {
+    transform: scale(2);
+}
+#div6, #div7 { 
+    width: 150px; height: 150px; background-color: green; 
+    transition: 3s;
+}
+#div6:hover { margin-left: 400px;}
+#div7:hover { transform: translateX(400px); }
+
+#div8 { width: 150px; height: 150px; 
+    background-color: gold; transition: 3s;
+    &:hover { transform: translateX(400px) rotate(360deg);}
+}

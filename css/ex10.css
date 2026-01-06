@@ -1,0 +1,21 @@
+#nav { width: 700px; background-color: antiquewhite; }
+#nav > ul { display: flex; background-color: orange; list-style: none; padding: 0; 
+    flex-wrap: wrap; height: 100px; align-items: center;
+    /* flex-direction: column; */ 
+    justify-content: space-around;
+}
+#nav > ul > li { border: 1px solid; width: 100px; 
+    /* padding: 10px; */
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+a {
+    text-decoration: none; color: white;
+    &:hover{
+    border-bottom: 3px solid olive;
+    padding-bottom: 5px ;
+    color: black;
+    transition: 0.25s;
+    }
+}

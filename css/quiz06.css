@@ -1,0 +1,5 @@
+#static2, #relative2, #absolute2, #fixed2 {width: 100px; height: 100px;} 
+#static2 {background-color: rebeccapurple; z-index: 1}
+#relative2 {background-color: red; z-index: 2; position: relative; top: -75px; left: 25px;}
+#absolute2 {background-color: aqua; z-index: 1; position: absolute; top: 50px; left: 50px;}
+#fixed2 {background-color: burlywood; z-index: 3; position: fixed; top: 75px; left: 75px;}

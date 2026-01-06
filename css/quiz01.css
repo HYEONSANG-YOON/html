@@ -1,0 +1,6 @@
+#main {background-color: lightgray;}
+#main > h2 {color: gold;}
+#main > div > div span:nth-child(1){font-size: 25px;}
+
+#main > h2:hover + div > h2 {color: aqua;}
+#main > div > div span:nth-child(1):hover ~ span {background-color: red;}

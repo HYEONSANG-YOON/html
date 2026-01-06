@@ -1,0 +1,16 @@
+#div1 {
+    width: 1200px; height: 1200px;
+    border: 1px solid;
+    background-repeat: no-repeat;
+    background-size: 1200px 1200px; /* 가로 , 세로 */
+    background-position: 300px 200px; /* 위 , 좌 */
+    background-image: url("다운로드.jpg");
+    /*
+    background: url("이미지") no-repeat 200px 200px / 100px 100px;
+    */
+}
+#div1:hover{
+    background-image: url("다운로드2.jpg");
+    color: red;
+}
+#div1 div { width: 50px; height: 50px; }

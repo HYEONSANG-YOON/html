@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="ex03.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <div id="div6">hex</div>
+    <div id="div7">rgb</div>
+    <div id="div8">rgba</div>
+
+    <hr>
+
+    <h1 style="background-color: aqua;">마진</h1>
+
+    <div id="div5">
+        <h3>1.태그(1)</h3>
+        <h3>2.태그(2)</h3>
+        <h3>3.태그(3)</h3>
+        <hr>
+        <h4>1.h4태그(5)</h4>
+        <h4>2.h4태그(6)</h4>
+        <h4>3.h4태그(7)</h4>
+    </div>
+
+    <div id="div4">
+        <h3>div4 자식</h3>
+    </div>
+    <div>div4 형제 및 인접</div>
+    <div>div4 형제</div>
+
+    <hr>
+
+    <div id="div3">
+        <div>
+            <h3>div->h3</h3>
+        </div>
+        <div>
+            <div>
+                <h3>div -> div -> h3</h3>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!--
+        자식 선택자( > )
+        - 특정 태그 직속 자식에게만 적용
+    -->
+    <div id="div2">
+        <h3>h3 자식1</h3><hr>
+        <div>
+            <h3>자식 2222</h3>
+        </div><hr>
+        <h3>h3 자식 1</h3>
+    </div>
+
+    <hr>
+    <!--
+        하위 선택자
+        -특정 태그 하위에 있는 모든 값들 적용
+    -->
+    <div id="div1">
+        <h3>h3 자식1</h3><hr>
+        <div>
+            <h3>자식 2222</h3>
+        </div><hr>
+        <h3>h3 자식 1</h3>
+    </div>
+
+</body>
+</html>

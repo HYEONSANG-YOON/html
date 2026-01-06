@@ -1,0 +1,86 @@
+h1 { position: relative; opacity: 1; }
+#left { left: -150px; 
+    animation: left 3s;
+    animation: left 3s;
+    animation-fill-mode: forwards;
+}
+#right { right: -500px;
+    animation: right 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes left {
+    100% { left: 300px; opacity: 1;}
+}
+@keyframes right {
+    100% { right: -150px; opacity: 1;}
+}
+
+
+#wrap {
+    width: 100px; margin: 200px auto; background-color: bisque;
+}
+.block {
+    width: 50px; height: 8px; margin-bottom: 15px;
+    background-color: navy;
+    animation: block 1s infinite;
+}
+#wrap :nth-of-type(2n + 1) {animation-delay: 0.2s;}
+/*
+#wrap :nth-of-type(2) {animation-delay: 0.3s;}
+#wrap :nth-of-type(3) {animation-delay: 0.2s;}
+#wrap :nth-of-type(4) {animation-delay: 0.1s;}
+*/
+@keyframes block {
+    50% { transform: translate(50px); }
+}
+
+#loading { display: flex; justify-content: center;}
+h2 { text-align: center; }
+.logo {
+    width: 20px; height: 20px; background-color: navy;
+    border-radius: 20px; margin: 0 10px;
+    animation: loading 1s infinite;
+}
+#loading :nth-of-type(2) {animation-delay: 0.2s;}
+#loading :nth-of-type(3) {animation-delay: 0.4s;}
+@keyframes loading {
+    50% {
+        transform: scale(0);
+    }
+}
+
+#div1 {
+    width: 200px; height: 200px; background-color: red;
+    animation: abc 10s;
+}
+@keyframes abc{
+    20% {margin-left: 400px;}
+}
+
+#div2 {
+    width: 200px; height: 200px; background-color: red;
+    animation: aaa 10s;
+}
+@keyframes aaa{
+    0% {margin-left: 400px; background-color: green;}
+}
+
+#div3 {
+    width: 200px; height: 200px; background-color: red;
+    animation: bbb 5s infinite;
+    animation-delay: 2s;
+}
+@keyframes bbb{
+    50% {margin-left: 400px; background-color: green;}
+}
+
+#div4 {
+    width: 100px; height: 100px; background-color: gold;
+    animation: box 4s infinite;
+}
+@keyframes box{
+    25% {margin-left: 50px; margin-top: 0px;}
+    50% {margin-left: 50px; margin-top: 50px;}
+    75% {margin-left: 0px; margin-top: 50px;}
+    100% {margin-left: 0px; margin-top: 0px;}
+}

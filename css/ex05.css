@@ -1,0 +1,35 @@
+#div5 {background-color: gold; width: 100px; height: 100px;}
+img { width: 100px; height: 100px; display: none;}
+/*
+#div5:hover > img {display: block;}
+#div5:hover > div {display: none;}
+*/
+
+#div5:hover{
+    & > img {display: block;}
+    & > div {display: none;}
+}
+*/
+#div5 {
+    background-color: aqua;
+    &:hover{
+        > img {display: block;}
+        > div {display: none;}
+}
+
+
+#div2 {background-color: gold; height: 100px;}
+#div3 {background-color: aquamarine; height: 100px; width: 100px;}
+#div4 {background-color: brown; height: 50px;}
+
+
+#div1 {background-color: red; display: inline; text-align: center; width: 100px; height: 100px;}
+#h1 {background-color: gold; width: 100px; height: 100px;}
+/*
+    inline : 사이즈 조정 안되고 가로 배치
+    block : 사이즈 조정 가능, 엔터 적용
+    inline-block : 사이즈 조정 가능, 가로 배치
+    none : 숨김
+*/
+#span {background-color: green; display: none; text-align: center; width: 100px; height: 100px;}
+#a {background-color: gray; width: 100px; height: 100px;}
