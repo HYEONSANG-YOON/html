@@ -1,6 +1,6 @@
-function MUpdateCon(){
+function MUpdateCon( ){
     return (<>
-      MUpdateCon
+        MUpdateCon
     </>)
 }
 export default MUpdateCon;

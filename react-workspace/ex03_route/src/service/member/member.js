@@ -12,7 +12,7 @@ const getData = () => {
     return data;
 };
 const memberDelete = ( id ) => {
-    //console.log("delete : ", id )
+    //console.log("delete : ", id ) aaa
     //console.log("delete 전 data : ", data )
     data = data.filter( mem => mem.id !== id )
     //console.log("delete 후 data : ", data )

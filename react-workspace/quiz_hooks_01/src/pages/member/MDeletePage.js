@@ -1,4 +1,4 @@
-import MDeleteCon from "../../containers/member/MDeleteCon"
+import MDeleteCon from "../../containers/members/MDeleteCon";
 function MDeletePage(){
     return (<>
         <MDeleteCon />

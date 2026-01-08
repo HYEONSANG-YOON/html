@@ -1,4 +1,4 @@
-function MUpdateCom( {user} ){
+function MUpdateCom( { user } ){
     return (<>
         MUpdateCom<br></br>
         id : {user.id}<br></br>

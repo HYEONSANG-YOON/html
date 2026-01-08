@@ -1,4 +1,4 @@
-import MOneCon from "../../containers/member/MOneCon"
+import MOneCon from "../../containers/members/MOneCon";
 function MOnePage(){
     return (<>
         <MOneCon />

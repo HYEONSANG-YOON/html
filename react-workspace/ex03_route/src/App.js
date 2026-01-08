@@ -8,23 +8,23 @@ import MUpdatePage from './pages/member/MUpdatePage';
 import HeaderCom from './components/common/HeaderCom';
 import NotFound from './components/common/NotFound';
 import MDeletePage from './pages/member/MDeletePage';
-
 function App() {
-  return (<>
+  return (
+    <>
     <Routes>
       <Route element={ <HeaderCom /> }>
         <Route path='/' element={<IndexPage />} />
         <Route path='/member'>
-          <Route path='list' element={<MListPage />}  />
-          <Route path='one' element={<MOnePage />}  />
-          <Route path='update/:username' element={<MUpdatePage />}  />
-          <Route path='delete/:username' element={<MDeletePage />}  />
+          <Route path='list' element={<MListPage />} />
+          <Route path='one' element={<MOnePage />} />
+          <Route path='update/:username' element={<MUpdatePage />} />
+          <Route path='delete/:username' element={<MDeletePage />} />
         </Route>
       </Route>
-      <Route path='*' element={ <NotFound /> }></Route>
+      <Route path='*' element={ <NotFound /> } ></Route>
     </Routes>
-    
-
+         
+      
     </>
   );
 }

@@ -1,6 +1,4 @@
-import { Link, Outlet, } from "react-router-dom";
-
-//function HeaderCom(){} 이렇게 만드나 아래처럼 만드나 상관없음
+import {  Link, Outlet } from "react-router-dom";
 const HeaderCom = () => {
     return (
         <div>

@@ -2,9 +2,9 @@ import { useNavigate, useParams } from "react-router-dom";
 import { memberDelete } from "../../service/member/member";
 import { useEffect } from "react";
 
-function MDeleteCon(){
+function MDeleteCon( ){
     const params = useParams();
-    //console.log( "del con params : ", params )
+    //console.log("del con params : ", params )
     memberDelete( params.username );
     
     const navigate = useNavigate();
